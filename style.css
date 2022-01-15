@@ -1,0 +1,64 @@
+body{
+    margin: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 3em;
+}
+.top-banner{
+    display: flex;
+}
+.link-button{
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.top{
+    margin-top: 5%;
+}
+.center{
+    margin-top: 10%;
+    text-align: center;
+}
+/* Popular Collection */
+.courses{
+    margin-top: 5%;
+    background-color: lavenderblush;
+    padding: 30px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.link{
+    text-decoration: none;
+    color: orangered;
+}
+.aline{
+    margin-top: 4%;
+    text-align: right;
+}
+/* <!-- bonnas Acianment-2 --> */
+.camera-servising{
+    margin-right: 10%;
+}
+.cameras{
+    display: flex;
+}
+.margin-top{
+    margin-top: 10%;
+}
+.lans{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 15px;
+    color: white;
+
+}
+/* footer style? */
+footer{
+    margin-top: 10%;
+    text-align: center;
+    background-color: lightslategrey;
+    padding: 20px;
+    color: white;
+}
