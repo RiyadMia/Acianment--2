@@ -1,3 +1,5 @@
+/*---------------
+---------- My css style? */
 body{
   
     font-family: 'Poppins', sans-serif;
@@ -53,6 +55,9 @@ h1{
      width: 400px;
      height: 400px;
 }
+.color{
+    color: orange;
+}
 .cameras{
     display: flex;
 }
@@ -79,7 +84,6 @@ footer{
 /* Mobile divise */
 @media only screen and (max-width:688px) {
     .courses, .courses,.top-banner {
-     margin-right: 10%;
         grid-template-columns: repeat(1, 1fr);
     }
     .container{
