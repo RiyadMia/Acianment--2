@@ -46,6 +46,12 @@ h1{
 .camera-servising{
     margin-right: 10%;
 }
+.img{
+    margin-top: 10%;
+    margin-left: 40px;
+     width: 400px;
+     height: 400px;
+}
 .cameras{
     display: flex;
 }
