@@ -74,3 +74,30 @@ footer{
     padding: 20px;
     color: white;
 }
+/* Media queries? */
+
+/* Mobile divise */
+@media only screen and (max-width:688px) {
+    .courses, .courses,.top-banner {
+     margin-right: 10%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container{
+        width: 100%;
+    }
+    .course, .top-banner, .cameras{
+        flex-direction: column;
+    }
+}
+/* tab devices */
+@media only screen and (min-width:688px)and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .courses, .courses {
+           grid-template-columns: repeat(2, 1fr);
+       }
+       .course{
+        flex-direction: column;
+    }
+}
