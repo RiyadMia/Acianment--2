@@ -23,11 +23,15 @@ h1{
 }
 /* Popular Collection */
 .courses{
+    margin: 10px;
     margin-top: 5%;
     background-color: lavenderblush;
     padding: 30px;
-display: grid;
-grid-template-columns: repeat(3,1fr);
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.course{
+    margin: 10px;
 }
 .link{
     text-decoration: none;
